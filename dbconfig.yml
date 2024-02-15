@@ -1,0 +1,18 @@
+development:
+  dialect: postgres
+  datasource: host=localhost dbname=postgres user=postgres password=gobank sslmode=disable
+  dir: migrations
+  table: migrations
+
+
+# production:
+#   dialect: postgres
+#   datasource: host=prodhost dbname=proddb user=${DB_USER} password=${DB_PASSWORD} sslmode=require
+#   dir: migrations
+#   table: migrations
+
+# staging:
+#   dialect: postgres
+#   datasource: host=prodhost dbname=proddb user=${DB_USER} password=${DB_PASSWORD} sslmode=require
+#   dir: migrations
+#   table: migrations
